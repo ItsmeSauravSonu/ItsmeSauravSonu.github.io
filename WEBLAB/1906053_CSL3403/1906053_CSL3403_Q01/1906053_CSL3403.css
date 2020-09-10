@@ -1,0 +1,10 @@
+body{
+  background-color: blanchedalmond;
+}
+table ,th,td{
+  border-radius: 2px;
+border: 2px solid black;
+}
+h1,h3,h2{
+  text-align: center;
+}

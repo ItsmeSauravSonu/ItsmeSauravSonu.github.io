@@ -1,0 +1,30 @@
+body{
+  background-color:#33ccff;
+margin: 0rem 0rem 0rem;}
+.para{
+  background-color: #99ccff;
+  text-indent: 3em;
+  color: #004080;
+  padding: 1rem 1rem 2rem;
+  margin: .2rem 0rem 0rem;
+}
+.heading{
+  text-decoration: underline;
+  background-color:#003366;
+  color:#ffff99;
+  padding: 1rem 1rem 2rem;
+  margin: 0rem 0rem -1rem;}
+
+
+.container{
+  background-color: red;
+  padding: 1rem 1rem 1rem;
+  margin: 0rem 0rem 1rem;
+  background-color: burlywood;
+  font-family: red serif;
+  font-weight: bold;
+  outline-style: dotted;
+}
+a:hover{
+  color:#009900;
+}
