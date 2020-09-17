@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Registration form</title>
+        <style>
+            body{
+                text-align:center;
+                background-color: dimgray;
+            }
+            .personal{
+                border:10px;
+                border-color:black;
+                background-color: #ffe6ff;
+            
+                }
+            
+            
+            h1{ 
+            background-color:#e0ebeb;
+            }
+           
+           
+            input,textarea,select{
+                background-color:#e0ebeb;
+            }
+
+            .academic{ border:10px;
+            border-color:black;
+                background-color: #ffe6ff;
+            }
+        .account{
+            border:3inch;
+            background-color: #ffe6ff;
+        }
+        .creator{
+            background-color:#e0ebeb;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <div class="personal" border:10px>
+            <h2>PERSONAL INFORMATION</h2>
+            <table>
+                <tr><td>Registration ID</td><td><input type="text"></td></tr>
+                <tr><td>Name</td><td><input type="text"></td></tr>
+                <tr><td>Roll number</td><td><input type="number"></td></tr>
+                <tr><td>Gender</td><td>Male<input type="radio" value="male" name="gender">
+                    Female<input type="radio" value="Female" name="gender">Other<input type="radio" value="other" name="gender"></td></tr>
+                <tr><td>DOB</td><td><input type="date"></td></tr>   
+                <tr><td>PWD</td><td>Yes<input type="radio" value="yes" name="pwd">No<input type="radio" value="no" name="pwd"> </td></tr>
+                <tr><td>Category</td><td><select value="">
+                    <option value="General">General</option>
+                    <option value="Sc">SC</option>
+                    <option value="St">ST</option>
+                    <option value="OBC">OBC</option>
+                    <option value="EWS">EWS</option>
+
+                </select></td></tr>
+                <tr><td>Correspondance Address</td><td><textarea rows="5" cols="20"></textarea></td></tr>
+                <tr><td>PLEASE ENTER THE CORRECT PIN CODE</td></tr>
+                <tr><td>PIN CODE</td><td><input type="number"></td></tr>
+                <tr><td>Contact No.</td><td><input type="number"></td></tr>
+                <tr><td>Email</td><td><input type="email"></td></tr>
+                <tr><td>Parents Contact No.</td><td><input type="number"></td></tr>
+            </table>
+        </div>
+        <div class="academic">
+            <h2>ACADEMIC DETAILS</h2>
+            <table>
+               <tr><td>COURSES</td><td><select value="">
+                   <option value="B.Tech">B.Tech</option>
+                   <option value="M.Tech">M.TECH</option>
+                   <option value="PhD">PhD</option>
+                   <option value="MBA">MBA</option>
+               </select></td></tr>
+               <tr><td>Branch</td><td><input type="text"></td></tr>
+               <tr><td>Semester</td><td><select value="">
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+                <option value="5th">5th</option>
+                <option value="6th">6th</option>
+                <option value="7th">7th</option>
+                <option value="8th">8th</option>
+                </select></td><td>(for which allotement will be done)</td></tr>
+               <tr><tr></tr>
+               <tr><td>All India Rank</td><td><input type="number"></td><td>(2020 jee main/gate)</td></tr>
+               <tr><td>Category Rank</td><td><input type="number"></td><td>(2020 jee main /gate)</td></tr>
+               <tr><td>SGPA/CGPA</td><td><input type="Number"></td></tr>
+               <tr><td>Backlog</td><td>Yes<input type="radio" value="yes" name="backlog">No<input type="radio" value="No" name="backlog"></td>
+               <tr><td>Hostel Accommodation</td><td>Yes<input type="radio" value="yes" name="hostal">
+                      No<input type="radio" value="No" name="hostal"></td></tr>
+                      <tr><td>Room Number</td><td><input type="number"></td></tr>
+            </table>
+       </div>
+       <div class="account">
+           <h2>ACCOUNT DETAILS</h2>
+          <table>
+            <tr><td>Account Holder Name</td><td><input type="text"></td></tr>
+            <tr><td>Account Number</td><td><input type="number"></td></tr>
+            <tr><td>IFSC CODE</td><td><input type="text"></td></tr>
+            <tr><td>Bank Name</td><td><input type="text"></td></tr>
+            <tr><td>Bank Branch</td><td><input type="text"></td></tr>
+          </table>
+       </div>
+       <br>
+       <input type="reset">
+       <input type="submit">
+    </form>
+    <hr>
+    <footer class="creator">NAME: SAURAV KUMAR SONU, ROLL:1906053</footer>
+    </body>
+</html>
